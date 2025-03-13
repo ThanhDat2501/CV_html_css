@@ -1,0 +1,66 @@
+div {
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.top {
+    display: flex;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: space-around;
+}
+
+.top_avatar {
+    display: inline-block;
+    border: none;
+    width: 15%;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.top_infor {
+    display: inline-block;
+    width: 70%;
+}
+
+.top_infor p {
+    font-size: 5ch;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+}
+
+.col__left,
+.col_right {
+    display: inline-block;
+    width: 50%;
+}
+
+
+.col__left_education,
+.col__left_language,
+.col__left_hobbies {
+    height: 200px;
+}
+
+.col__right {
+    display: inline-block;
+    width: 50%;
+}
+
+.col__right_skill,
+.col__right_experience {
+    display: block;
+    height: 350px;
+}
+
+.bottom_content {
+    margin: 10px;
+}
